@@ -2,6 +2,16 @@
 
 ## General 
 - Global Service
+### Best Practices
+- Dont use Root account for other things than account setup
+- One physical user = one AWS User
+- Assign users to groups and assign permissions to groups
+- Use PW Policy
+- Use and enforce MFA
+- Use Roles for services
+- Use Access Keys for accessing services 
+- Audit permissons with IAM Cred Report 
+- Never share keys or user
 
 ## Users
 - Actual Persons
@@ -9,6 +19,9 @@
 ## Groups
 - Collection of Users
 - One Group can have multiple Users
+## Roles
+- intended to be used by AWS Services
+
 ## Policies
 - Handles Permissions
 - Attached to group as json doc.
@@ -58,3 +71,12 @@
 
 #### Hardware Key FOB MFA Device for US Gov Cloud
 - 3rd Party
+
+### IAM Security Tools
+
+#### IAM Credentials Report
+- Report of all  Accounts Users and credential status (pw, accesskeys, mfa etc)
+
+#### IAM Access Advisor
+- for a single user or ressource get the info of all service permissions and when that service was lastly accessed
+- can be used to revise policies and roles
