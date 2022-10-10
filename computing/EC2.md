@@ -114,3 +114,15 @@
 - Combine with Saving plan and Reserved Instances for same AZ to save
 - Charged on demand even if instance is not running
 - short term uninterrupted workload in a specific az
+
+## Spot Instance
+- Request for an instance and the instance running itself is diffrent
+- If you cancel your instance but not the request the insatnce will be relaunched
+- If you cancel your request your isnatnce will still be running
+### Fleet
+- Define multiple options for instance type , region etc
+- Define a budget and target capacity
+#### Strategies
+- lowest price, launch from lowest price pool
+- diversified, launch from all pools (resiliance)
+- capacityOptimized, launch from pool with strogest settings
