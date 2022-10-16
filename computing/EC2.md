@@ -112,7 +112,7 @@
 - no time commitment
 - no billig discount
 - Combine with Saving plan and Reserved Instances for same AZ to save
-- Charged on demand even if instance is not running
+- Charged on demand  if instance is not running
 - short term uninterrupted workload in a specific az
 
 ## Spot Instance
@@ -126,3 +126,44 @@
 - lowest price, launch from lowest price pool
 - diversified, launch from all pools (resiliance)
 - capacityOptimized, launch from pool with strogest settings
+
+## Elastic Ip
+- used to mask fail by keeping ip and changeing mashine
+- up to 5 per account
+- can increase if ask aws
+
+## Placement Groups
+Placement strategy for ec2 instances
+### Spread
+- multi AZ 
+- diffrent hardware
+- limited to 7 instandces per az per placement group
+- use for critical apps and high availability
+
+### Cluster
+- same rack
+- fast internal connection from ec2 to ec2 
+- used for low latency and big data jobs with deadline
+- rack fail fails all
+### Partition
+- multi AZ
+- multi rack but same rack per partition
+- use case big data application which are partition aware
+
+## ENI Elastic Network Interfaces
+- Virtual Network Card
+- can be used not only for ec2
+- Eth0 = primary ENI
+- primary private ip
+- can add multiple for multiple private ip
+- can attach elastic ip
+- can attach mac adress
+- can attach and detach
+- bound by AZ
+
+## EC2 Hibernate
+- Standby for EC2, ram is saved
+- faster startup
+- root ebs must be encrypted
+- used for breaks in very long running tasks or if an instances takes very long to startup
+- no longer than 60 days
