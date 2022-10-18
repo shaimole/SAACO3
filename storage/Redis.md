@@ -1,0 +1,10 @@
+# Redis
+
+## Elasticcache for Redis
+- in-memory data store
+- sub-milisecond latency
+- used for real-time application
+- supports replication, high availability and cluster sharding
+-
+## RedisAuth
+- use aa password before client  can execute commands
