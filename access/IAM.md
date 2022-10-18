@@ -21,6 +21,7 @@
 - One Group can have multiple Users
 ## Roles
 - intended to be used by AWS Services
+- can be used to access cross account ressources
 
 ## Policies
 - Handles Permissions
