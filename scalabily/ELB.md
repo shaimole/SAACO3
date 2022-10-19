@@ -135,13 +135,6 @@
 - between 0 to 3600 seconds, default is 300
 - low value if requests are short
 
-## ASG Auto Scaling Group
-- scale horizontaly
-- scale out and in
-- ensure maximum and minimum ec2s
-- automaticly register EC2 with load balancer
-- if instance is unhealthy it will be terminated and recreated
-- set desired capacity
 
 ### Launch Template
 - AMI
@@ -168,7 +161,7 @@
 - Request Count per Target
 - Average Network io
 - Any custom metric via Cloudwatch
-#### Dynamic Scaling
+#### Dynamic Scaling:
 ##### Target Tracking
 - i want cpu to stay aroiund 50%
 ##### Simple Step Scaling

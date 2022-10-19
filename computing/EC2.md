@@ -65,7 +65,6 @@
 
 ## Distributing Load Accross Mashines (ELB) 
 
-## Scale Mashines (ASG)
 
 ## Purcharsing Options
 ### On Demand
