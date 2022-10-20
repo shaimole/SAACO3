@@ -48,6 +48,7 @@
 - MTU 15kbs if VPN
 - has a route table
 - route propagation
+- gives douple throughput of virtual private gateway
 
 ## VPC Sharing
 - share one or more subnets within other accounts beloning to the same organisation

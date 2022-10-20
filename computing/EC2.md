@@ -33,6 +33,7 @@
 - time out usually means sg issue
 - connection refused application or server error
 - default all inbound is blocked all outbound allowed
+- stateful, if traffic is allowed out its allowed back in
 
 
 ### Instance Types
@@ -47,7 +48,7 @@
 - ML
 - Media Transcoding 
 - ...
-##### Memory Optimized
+#### Memory Optimized
 - process large data sets in memory
 - non relational Databases
 - cache stores
