@@ -4,6 +4,7 @@
 - two static anycast ip adresses as fixed entrypoints
 - global service
 - can use weights to distribute portion of traffic
+- good fit for non http use cases
 ## Targets
 - ALB
 - NLB
