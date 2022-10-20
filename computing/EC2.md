@@ -14,6 +14,7 @@
 
 ### User Data
 - script is run once at instance first start
+- uses root privleges
 - installing updates
 - installing software
 - Download files from the internet

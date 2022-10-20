@@ -22,6 +22,10 @@
 ## Roles
 - intended to be used by AWS Services
 - can be used to access cross account ressources
+## Permission Boundary
+- maximum permission employyess can grant to other entities
+- uses managed policies
+- is attached to prinzipal
 
 ## Policies
 - Handles Permissions

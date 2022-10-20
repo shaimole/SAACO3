@@ -65,7 +65,7 @@
 - Same as AWS Direct COnnect + VPN but for up to 5k targets
 #### AWS VPN Cloud Hub
 - Connect remote branch offices in a hub-and-spoke model for primary or backup connectivity
-- connect remote to remote not remote to vpn
+- connect remote to remote to remote to vpn
 ##### Pros
 - Reusus exsiting internet connection and AWS VPN connections
 - AWS managed and highly available
@@ -95,3 +95,5 @@
 ### Customer Gateway Device
 - Physical or Software
 - on customer side (on premise/remote) to establish VPN connection
+
+
