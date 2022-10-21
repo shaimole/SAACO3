@@ -23,3 +23,49 @@
 - multiple per az possible
 - only read
 - reader endpoint does load balancing
+- can enable replica autoscaling
+## Custom Endpoints
+- subset of aurora instances as custom endpoint(e.g. larger instance type for analytical queries)
+
+## Aurora Serverless
+- automated db instantiation and autoscaling
+- for unpredictable workloads
+- pay per second
+- client talks to aurora proxy fleet
+
+## Aurora multi master
+- all nodes are read write nodes there is no master
+- replication between all nodes
+- use for imediate failover
+
+## Global Aurora Database
+- 1 primary region for read an write
+- up to 5 secondary read regions
+- up to 16 read replicas for each read region
+- less than 1 second for replication across region
+
+## Aurora machine learing
+- ML based predications to your apps via SQL
+### Use cases
+- fraud detection
+- add targeting
+- sentiment analysis
+- product recommendations
+### Servies
+- SageMaker
+- Comprehend
+
+## Backups
+
+### Automated 
+- 1 to 35 days
+- can not be disabled
+- point in time recovery in that timeframe
+
+### Manual
+- triggered by user
+- keep as long as user wants
+
+
+### Restore
+- into new database
