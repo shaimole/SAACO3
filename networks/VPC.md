@@ -54,3 +54,37 @@
 - share one or more subnets within other accounts beloning to the same organisation
 - every account can only work with the ressources they created
 
+## VPC Flow Logs
+- Capture Information about IP traffic through your interfacines
+- VPC Flow Logs
+- Subnet Flow Logs
+- ENI Flow Logs
+### Other Sources
+- ELB
+- RDS
+- ElastiCache
+- REdshift
+- WorkSpaces 
+- NATGW
+- Transit Gateway
+...
+### Targets
+- S3
+- Cloudwatch Logs
+### Information
+- ip information
+- port information
+- action (accept/reject)
+### Query
+- S3 Athena
+- Cloudwatch Logs Insights
+
+## NACL
+- not stateful
+- firewall on subnet level
+
+## VPC Traffic Mirroring
+- capture and inspect network traffic
+- unintrusive
+- traffic gets direct to security applicance fleet
+- fleet redicet traffic back
