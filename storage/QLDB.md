@@ -1,0 +1,12 @@
+# Quantum Ledger Database
+- recording finical transactions
+- serverless
+- fully managed
+- hign available
+- replications across 3 az
+- immutable
+- cryptographic signature
+- review history of transactions
+- better performance than common ledger blockchain framings
+- use sql to gather data
+- no decentrailations

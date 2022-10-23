@@ -23,3 +23,28 @@
 - Redshift
 - Elasticsearch
 - Splunk
+
+## Data Analytics for SQL Application
+- serverless
+- pay per consumption rate
+- read from Data Streams or Firehouse
+- use SQL Statements while refrencing s3
+- send againt to another Kinesis Stream or Firehouse
+### Usage
+- Real Time anaytics
+
+## Data Anaytics for Appache Flink
+- Use Flink (Java, Scala or SQL) to process or analyse streaming data
+- provison compute ressources
+- parallel computing
+- automatic scaling
+- backups
+- any apache flink feature
+- uses aws manged cluster behind the scenes
+## Sources
+- Kinesis Data Steams
+- MSK
+## Usage
+- more powerful queries
+- run complex queries
+- 
