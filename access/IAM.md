@@ -86,3 +86,22 @@
 #### IAM Access Advisor
 - for a single user or ressource get the info of all service permissions and when that service was lastly accessed
 - can be used to revise policies and roles
+
+### IAM Conditions
+
+#### AWS Source IP
+- restrict by client IP
+- restrict by target region
+- restrict by tag(user and ressouce)
+- force mfa
+- account org
+
+## Roles vs Ressource Based Policies
+- when you assume a role, you give up all previous persmissions
+- Ressource based if a Iam entity needs to do multiple things on diffrent accounts
+### Event Bride
+- when event bride runs it needs access for the target service
+- some service support iam some use ressource based
+### Cross Account
+- attach policy to a resouce (S3)
+- use a role as a proxy (give role access)
