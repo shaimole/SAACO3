@@ -10,4 +10,9 @@
 - NLB
 - Elastic IP
 - EC2
+## Health Checks
+- failover less than 1 min unhealty
+- good disater recovery
+## Security
+- only 2 external ips need to be whitelisted
 

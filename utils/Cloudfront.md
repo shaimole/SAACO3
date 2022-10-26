@@ -4,7 +4,32 @@
 - global
 - regional edge cachhes
 - only http based requests
-
+## Origins
+### S3
+- caching
+- distributoing
+- enhanced securty with (OAI)
+- Cloudfront can be upload point to S3
+### Custom Endpoint
+- ALB
+- EC2
+- S3 WEbsite
+- Any HTTP backend
+## Geo Restirction
+- whitelist countries
+- blacklist coutries
+- use for copyright laws
+## Price Classes
+- depends on data transfer, but is diffrent for each edge location
+- price goes down if you transfer more data
+### All
+- all regions - best performance - highest price
+### 200
+- most regions - exludes most exp
+### 100
+- only cheapest regions 
+## Cache Invalidations
+- invalide via api and path
 ## Customization at Edge
 - serverless
 - customize a cdn endpoint
