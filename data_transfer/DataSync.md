@@ -1,5 +1,6 @@
 # AWS Data Sync
 - online data transfer service
+- use for one time transfers of data which no longer need to be in other location synced
 - accelerates copying large amounts of data between on-premises and aws
 - encrypted
 ## Sources

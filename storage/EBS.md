@@ -10,6 +10,7 @@
 - uses provisioned capacity (Size and IOPS)
 - you get billed even if drive is not full
 - delete on terminiation is an option
+- can be modified while in use (iops and capacity)
 
 ## Snapshot
 - is a Backup, can be done durin attachment

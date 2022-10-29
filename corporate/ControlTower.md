@@ -6,6 +6,7 @@
 - automate policy managed using guard rails
 - detect policy viloations
 - monitor compliance through dashboard
+- streamline account creation in org
 
 ## Guardrails
 

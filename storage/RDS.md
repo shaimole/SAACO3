@@ -16,7 +16,7 @@
 ## Multi AZ
 - can be upgraded without downtime
 - one dns name
-- automatic failover to standby database
+- automatic failover to standby database by switching target ip of dns name
 - sync replication
 - one db will be standby
 - deactive automation mode and take snapshot before modify

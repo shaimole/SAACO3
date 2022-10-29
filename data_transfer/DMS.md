@@ -8,6 +8,8 @@
 - replication instaces for scaling workloads
 - support continous repication
 - uses an ec2 instance to run dms software
+- if target is s3 it generates csv
+- can use in transit encrypt by add ca cert to endpoint
 ## Sources
 - on premise anfd ec2 instaces
 - azure

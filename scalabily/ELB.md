@@ -38,6 +38,7 @@
 - port mapping feature
 - fixed hostname
 - app servers dont see the clients ip directly
+- cannot attach elastic ip
 
 ### Target groups
 - EC2 Instances
