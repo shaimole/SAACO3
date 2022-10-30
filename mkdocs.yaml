@@ -1,5 +1,5 @@
 site_name: AWS Certified Solutions Architect – Associate - Notes
-
+repo_url: https://github.com/shaimole/SAACO3
 theme:
     name: 'material'
     palette:
@@ -16,8 +16,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: green
-      accent: blue
+      primary: amber
+      accent: pink
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
