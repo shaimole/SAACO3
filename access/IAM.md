@@ -1,7 +1,10 @@
-# IAM (Identity and Access Mangment)
+# Identity and Access Mangment
 
-## General 
 - Global Service
+- Is used in nearly all other services to control access rights for that service to other services
+- Is used for users to grant permissions to use create and delete aws services
+
+
 ### Best Practices
 - Dont use Root account for other things than account setup
 - One physical user = one AWS User

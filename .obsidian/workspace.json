@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "36b5b0d92a1e5c88",
+    "type": "split",
+    "children": [
+      {
+        "id": "32c9aa8065b7b993",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8c5360505784619",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "access/IAM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cfa922886d016671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "computing/EC2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f07ea228948b8d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "security/SecurityGroup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b4090de2ec83ffc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b52e45d87664f8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8784e55f49e3bd4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "afa80b768537289e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0e000179647b0567",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3a45c8fac1dbda34",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5bdc1c30cbe445b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f21105e623f9156e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "access/IAM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0a81e9b94302ec91",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "access/IAM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2bb5f2fc176a872b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "49dafcf859f0722d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "access/IAM.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e8c5360505784619",
+  "lastOpenFiles": [
+    "access/EC2InstanceConnect.md",
+    "access/CLI.md",
+    "computing/EC2.md",
+    "security/SecurityGroup.md",
+    "access/CloudShell.md",
+    "README.md",
+    "attachments/Pasted image 20221030110235.png",
+    "access/IAM.md"
+  ]
+}

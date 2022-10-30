@@ -1,5 +1,4 @@
-# EC2 Instance connect
-- Connect to instance with ssh via console
+- Connect to [[EC2]] Instance with ssh via AWS Console
 - Browser based shell
 - Dont need key pair
-- SSH need to be open on sg
+- SSH need to be open on the [[EC2]] Instance [[SecurityGroup]]
