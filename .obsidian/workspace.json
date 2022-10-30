@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "access/CLI.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "access/CLI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "access/CLI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "access/CLI.md"
               }
             }
           }
@@ -162,13 +162,13 @@
   },
   "active": "e8c5360505784619",
   "lastOpenFiles": [
+    "README.md",
     "access/IAM.md",
     "access/EC2InstanceConnect.md",
     "access/CLI.md",
     "computing/EC2.md",
     "security/SecurityGroup.md",
     "access/CloudShell.md",
-    "README.md",
     "attachments/Pasted image 20221030110235.png"
   ]
 }
