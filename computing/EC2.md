@@ -1,153 +1,188 @@
+![[Pasted image 20221030223457.png]]
 # Elastic Compute Cloud
 
-## Virtual Maschines (EC2)
+## TLDR
+EC2 is a the combination of a virtual mashine and hardware capacity attached to that vm in AWS. It is one of the oldest services and well integrated into most other services.
 
-### Configuration
+## Virtual Machines (EC2)
+
+### Configuration Options
 - OS (Win, Linux, MacOs)
 - CPU
 - RAM
-- Stoarge Space Network attached (EBS & EFS)
-- Hardware attached (EC2 Instace Store)
+- Network attached storage ([[EBS]] & [[EFS]])
+- Hardware attached ([[InstanceStore]])
 - Network Card (Speed, Ip)
-- Firewall (Security Group)
-- Bootstrap Script (ec2-user Data)
+- Firewall ([[SecurityGroup]])
+- Bootstrap script (User Data)
 
 ### User Data
-- script is run once at instance first start
-- uses root privleges
-- installing updates
-- installing software
+- Is a script is run once on the first start of the instance
+- Script is run using root privileges
+
+### Use Cases
+- Installing updates
+- Installing software
 - Download files from the internet
 
 ### Instance Types
 
-#### Convention
-- ClassGeneration.Size
+#### Type Definition
+- Split by family
+- In family types are defined by Class.Generation.Size 
 
 #### Families
+
 ##### General Purpose
-- Balance between, computing, memory, network
+- Balance between, computing, memory and network speed
+
 ##### Compute Optimized
-- ML
+- High cpu power
+
+###### Use Cases
+- Ml
 - Media Transcoding 
-- ...
-#### Memory Optimized
-- process large data sets in memory
-- non relational Databases
-- cache stores
-- In memory Databases 
+-  ...
+
+##### Memory Optimized
+- High amount of RAM/Memory
+
+###### Use Cases
+- Process large data sets in memory
+- Non relational databases
+- Cache stores
+- In memory databases 
 - Real time proccessing of big unstructured data
 
 ##### Storage Optimzied
+- High amount of Disk IOPs
+
+###### Use Cases
 - Alot of Datasets in local storage
 - High frequency online transaction processing systems
 - Databases
-- Cache for in mem databases (redis)
-- Distributed file Systems
+- Cache for in mem databases (e.g. redis)
+- Distributed file systems
 - Data warehouse applications
 
-## Virtual Drives (EBS)
-
-## Distributing Load Accross Mashines (ELB) 
-
-
 ## Purcharsing Options
+
 ### On Demand
-- price by second
-- use for short workload
+- Price by second
+- Use for short workload
+
 ### Reserved
+
 #### Default
 - 1 Year OR 3 Years 
-- cheaper than on demand
-- Need to specify Type OS, Region, Tenacy
-- cheaper if payed upfornt
-- Scope reserve in Zone and AZ
+- Cheaper than on demand
+- Need to specify type os, region, tenacy
+- Cheaper if payed upfront
+- Scope reserve in zone and AZ
 - You can sell peer to peer in marketplace
+
 #### Convertiable
-- more expensive than default
-- can change instance  type , os, region, tenacy
+- More expensive than default
+- Can change instance type, os, region, tenacy
 
 ### Savings Plans
 - 1 Year OR 3 Years
-- up to same discaunt das default ri
-- commit to an amound of usage
-- beyond commit is billed on dempand price
-- locked to instance family and region
-- can change os, tenancy, and instance size
+- Up to same discount as default reserved instance
+- Commit to an amount of usage (cpu, mem, disk)
+- Beyond commit is billed on demand price
+- Locked to instance family and region
+- Can change os, tenancy, and instance size
+
 ### Spot Instances
-- short workload
-- cheapest
-- define max price
-- can lose instance
-- suited for resiliant jobs
-- distributed workloads
+- Cheapest
+- Can lose instance
+- Define max price you are willing to pay, if you are overbid your instance is gone
+
+#### Use Cases
+- Short workloads
+- Suited for resiliant jobs
+- Distributed workloads (these are resiliant by definition)
+
 ### Dedicated Hosts
-- entire physical server, control placement
-- complicance
-- server bound software licence 
+- Rent an entire physical server, control placement of that server
 - can use on demand or reserved 
 - most expensive 
+
+#### Use Cases
+- Complicance
+- Server bound software licences
+
 ### Dedicated Instances
-- no customer will share the hardware
-- hardeware may be shared within same account
-- no control over instance placement (hardware might be moved)
+- No other customer will share the hardware used by you
+- Hardeware may be shared within same account
+- No control over instance placement (hardware might be moved)
+
 ### Capacity Reservations
-- Reserve a capacity in a AZ for duration (on demaand instance)
-- no time commitment
-- no billig discount
-- Combine with Saving plan and Reserved Instances for same AZ to save
-- Charged on demand  if instance is not running
+- Reserve a capacity in a AZ for duration (on demand instance)
+- No time commitment
+- No billig discount
+- Combine with Saving plan and Reserved Instances for same AZ to save money
+- Charged on demand price if instance is not running
+
+  #### Use Cases
 - short term uninterrupted workload in a specific az
 
 ## Spot Instance
 - Request for an instance and the instance running itself is diffrent
-- If you cancel your instance but not the request the insatnce will be relaunched
-- If you cancel your request your isnatnce will still be running
+- If you terminate your instance but not the request the instance will be relaunched
+- If you cancel your request your instance will still be running
+
 ### Fleet
 - Define multiple options for instance type , region etc
 - Define a budget and target capacity
+
 #### Strategies
-- lowest price, launch from lowest price pool
-- diversified, launch from all pools (resiliance)
-- capacityOptimized, launch from pool with strogest settings
+- Lowest price, launch from lowest price pool
+- Diversified, launch from all pools (resiliance)
+- Capacity optimized, launch from pool with strongest capacity settings
 
 ## Elastic Ip
-- used to mask fail by keeping ip and changeing mashine
-- up to 5 per account
-- can increase if ask aws
+- A static ip which can be attached to Elastic Network Interfaces and other services
+- Used to mask a fail by keeping ip but changing mashine
+- Up to 5 per account
+- Can request more than 5 from aws
 
 ## Placement Groups
-Placement strategy for ec2 instances
+Placement strategy for a group ec2 instances
+
 ### Spread
-- multi AZ 
-- diffrent hardware
-- limited to 7 instandces per az per placement group
-- use for critical apps and high availability
+- Multi AZ 
+- Diffrent hardware
+- Limited to 7 instances per AZ per placement group
+- Use for critical apps and high availability
 
 ### Cluster
-- same rack
-- fast internal connection from ec2 to ec2 
-- used for low latency and big data jobs with deadline
-- rack fail fails all
+- Same rack
+- Fast internal connection from ec2 to ec2 
+- Used for low latency and big data jobs with deadline
+- Rack fail -> all EC2s fail
+
 ### Partition
-- multi AZ
-- multi rack but same rack per partition
-- use case big data application which are partition aware
+- Multi AZ
+- Multi rack but same rack per partition
+
+#### Use Case
+-  big data application which are partition aware
 
 ## ENI Elastic Network Interfaces
 - Virtual Network Card
-- can be used not only for ec2
+- Can be used not only for ec2
 - Eth0 = primary ENI
-- primary private ip
-- can add multiple for multiple private ip
-- can attach elastic ip
-- can attach mac adress
-- can attach and detach
-- bound by AZ
+- Primary private ip
+- Can add multiple for multiple private ips
+- Can attach elastic ip
+- Can attach mac adress
+- Can attach and detach from instance
+- Bound by AZ
 
 ## EC2 Hibernate
 - Standby for EC2, ram is saved
-- faster startup
-- root ebs must be encrypted
-- used for breaks in very long running tasks or if an instances takes very long to startup
-- no longer than 60 days
+- Faster startup
+- Root [[EBS]] must be encrypted
+- Used for breaks in very long running tasks or if an instances takes very long to startup
+- Can last no longer than 60 days
