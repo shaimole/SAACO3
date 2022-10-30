@@ -1,3 +1,6 @@
+---
+title: "EC2 Instance Connect"
+---
 - Connect to [[EC2]] Instance with ssh via AWS Console
 - Browser based shell
 - Dont need key pair

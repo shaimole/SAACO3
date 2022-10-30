@@ -49,6 +49,7 @@
 - restrict access as much as possible
 ### Prepare for the worst
 - incident managment and investigation policy
+
 ## Reliabilty
 - perform a workload correctly
 ## Performance Efficiency
