@@ -1,0 +1,2 @@
+- quick way of hosting application without having to manage infrastructre
+- more control than [[AppRunner]]
