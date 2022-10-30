@@ -163,10 +163,10 @@
   "active": "e8c5360505784619",
   "lastOpenFiles": [
     "access/EC2InstanceConnect.md",
-    "access/CloudShell.md",
-    "access/CLI.md",
     "README.md",
     "access/IAM.md",
+    "access/CloudShell.md",
+    "access/CLI.md",
     "computing/EC2.md",
     "security/SecurityGroup.md",
     "attachments/Pasted image 20221030110235.png"

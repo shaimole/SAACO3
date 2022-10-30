@@ -16,4 +16,4 @@ This is a personal collection of notes taken in preparation for the AWS SAA-C03 
 ### Website 
 - [Material for MkDocs (squidfunk.github.io)](https://squidfunk.github.io/mkdocs-material/)
 ### Hosting & CI
-- https://www.cloudflare.com/
+- [Cloudflare](https://www.cloudflare.com/)
