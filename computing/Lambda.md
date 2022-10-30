@@ -1,59 +1,76 @@
+![[Pasted image 20221030233208.png]]
 # AWS Lambda
-- run code serverless
-- pay per compute time
-- limited by time SHORT EXECUTIONS
-- scaling is automated
-- no charge if not running
-- Operates from AWS owned VPC
-- by default only public traffic
-- you can enable function vpc access if you need private ressources
-- if you need both private and public res, you will have to enable vpc access and use a nat gateway
-- scale up based on request amount
-- can set custom function timeout
-- can be packaged and deployed as container images
+
+## TLDR
+AWS Lambda means you dont care about any infrastructure, you just upload a function to aws. You can than use that function from other services like  [[APIGateway]], [[SNS]] or even [[CLI]]. You upload Lambda code as a zip.
+
+## Features
+- Run code serverless
+- Pay per compute time
+- Scaling is automated
+- No charge if not running
+- Operates from AWS owned[[VPC]]
+- By default only public traffic
+- You can enable function [[VPC]] access if you need private ressources from your [[VPC]]
+- Scale up based on request amount
+- Can set custom function timeout
+- Can be packaged and deployed as container images
+
+## Drawbacks
+- Limited by time SHORT EXECUTIONS
+- if you need both private and public ressources, you will have to enable [[VPC]] access and use a nat gateway to access the internet
 
 ## Security
 
 ### Lambda authorizer
-- send additonal info based of bearer token or request context
-- skip having too lookup users
-- dont pass credentials!
-## compute power
-- relative to memory allocation
+- Send additonal info based of bearer token or request context
+- Is useful because you can skip having too lookup users inside of your function  (you pass the user data)
+- Dont pass credentials! (Though you could)
+
+## Compute Power
+- Relative to memory allocation which can be manually set
+
 ## Lambda Layer
-- zip archive which contains librarties, custom runtime and other dependecies
-- a single function can use up to 5 layers
-- can use own layers or already published ones
-- unzipped size cannot exed 250mb for function and all layers
+- Zip archive which contains librarties, custom runtime and other dependecies
+- A single function can use up to 5 layers
+- Can use self created layers or already published ones
+- Unzipped size cannot exeed 250mb for a function and all layers which it depends on
+
 ## Container Image
-- image must implement lambda runtime api
-- ecs and fargate is prefered
+- If using an image the image must implement the  [[Lambda]] runtime api
+- [[ECS]] and Fargate are prefered for this use case
 
 ## Price
-- pay per call first 1 mill are free
+- Pay per call first 1 mill are free
 - 0.20 cent per one million request after
-- pay per duration 400000GB Seconds per month free
-- scales up after that depending on gbseconds
+- Pay per duration 400000GB-Seconds per month free
+- Price scales up after that depending on gbseconds (more will be cheaper per gbsecond)
 
-## Limits per region
+## Limits Per Region
 
 ### Memory 
 - 128MB to 10GB in 1mb increments
-### Time
+
+### Max Exec Time
 - 900 seconds/ 15 mins
-### ENv vars
-- 4kb
+
+### ENV vars
+- 4kb for all vars together
+
 ### Disk
 - 512MB to 10GB
+
 ### Concurrency
 - 1000 but can be increased
+
 ### Deployment
-#### zip size
+
+#### Zip Size
 - 50 MB
-#### uncompressed with dependencies
+
+#### Uncompressed With Dependencies
 - 250 MB
-#### tmp
+
+#### TMP
 - can use /tmp to load other files after/on startup
-#### env vars
-- 4kb max
 
