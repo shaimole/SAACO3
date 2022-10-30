@@ -1,17 +1,24 @@
+![[Pasted image 20221030223211.png]]
 # AWS Batch
-- fully managed batch processing at any scale
-- run 100ks  of batch jobs
-- batch job has an start or end
-- dynamicly launch ec2 instances or spot instances
-- defines via docker and ecs
-- helpful for cost optimisations
-- no infrastructure to manage
-- not serverless
-- no time limit
-- any runtime
-- ebs/ instace store for diskspace
-## vs Lambda
-- time limit
-- limit runtimes options
-- serveress
-- limit disk space
+
+## TLDR
+AWS Batch is used to simplify big batch jobs at scale. It handles to provisioning of computing, orchisation and storage power at a higher level.
+
+## Features
+- Fully managed batch processing at any scale
+- Run 100ks  of batch jobs
+- Batch job has an start or end
+- Dynamicly launch [[EC2]] on-demand instances or spot instances
+- Can also use Fargate [[ECS]]
+- Helpful for cost optimisations
+- No infrastructure to manage
+- Not serverless
+- No time limit
+- Any runtime
+- Can use [[EBS]] or Instance store for diskspace
+
+## Batch vs [[Lambda]]
+- [[Lambda]] has a time Limit
+- [[Lambda]] has limited runtimes options
+- [[Lambda]] is serveress
+- [[Lambda]] has limited disk space

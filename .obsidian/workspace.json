@@ -23,12 +23,8 @@
             "id": "b17601c6e0897bb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computing/Batch.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -122,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computing/Batch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computing/Batch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computing/Batch.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -175,15 +167,15 @@
   },
   "active": "b17601c6e0897bb3",
   "lastOpenFiles": [
+    "computing/EC2.md",
+    "computing/Batch.md",
     "computing/AppRunner.md",
+    "storage/EBS.md",
     "computing/ElasticBeanstalk.md",
     "computing/ElasticTranscoder.md",
     "computing/AMI.md",
     "access/SSM.md",
     "README.md",
-    "access/IAM.md",
-    "access/CLI.md",
-    "access/CloudShell.md",
-    "access/EC2InstanceConnect.md"
+    "access/IAM.md"
   ]
 }
