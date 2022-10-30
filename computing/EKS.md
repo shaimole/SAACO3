@@ -1,20 +1,27 @@
-# Cubernetis
+![[Pasted image 20221030232125.png]]
+# Kubernetes
 
-## Manged Node Groups
-- creates ec2 instances for you
-- ASG managed by eks
-- support on demand and spot instaces
+## TLDR
+Kubernetes in AWS. [[ECS]] Default options are not Kubernetes, but AWS own tech.
 
-## Self manghed
-- EC2 are created by the user and registered to the cluster
-- can use prebuild eks optimized AMI
-- on demand or spot instaces
-## Fargate
-- no nodes or maintence required
+## Options
+
+### Manged Node Groups
+- Creates [[EC2]] instances for you
+- ASG managed by [[EKS]]
+- Supports on demand and spot instances
+
+### Self Managed
+- [[EC2]] are created by the user and registered to the cluster
+- Can use prebuild [[EKS]] optimized [[AMi]]
+- Supports on demand or spot instaces
+
+### Fargate
+- No nodes, instances or maintance required
 
 ## Data volumes
-- need to specify storage class
-- EBS
-- EFS (works with fargate)
-- FSx for Lustre
+- Need to specify storage class
+- [[EBS]] (for [[EC2]] version only)
+- [[EFS]] (works with fargate)
+- [[FSxLustre]]
 - FSx for NetApp ONETAP
