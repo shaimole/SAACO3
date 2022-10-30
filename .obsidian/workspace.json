@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "access/CLI.md",
+                "file": "access/CloudShell.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "access/CLI.md",
+                "file": "access/CloudShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "access/CLI.md",
+                "file": "access/CloudShell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "access/CLI.md"
+                "file": "access/CloudShell.md"
               }
             }
           }
@@ -162,10 +162,10 @@
   },
   "active": "e8c5360505784619",
   "lastOpenFiles": [
+    "access/CLI.md",
     "README.md",
     "access/IAM.md",
     "access/EC2InstanceConnect.md",
-    "access/CLI.md",
     "computing/EC2.md",
     "security/SecurityGroup.md",
     "access/CloudShell.md",
