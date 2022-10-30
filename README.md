@@ -15,5 +15,10 @@ This is a personal collection of notes taken in preparation for the AWS SAA-C03 
 - [Obsidian](https://obsidian.md/)
 ### Website 
 - [Material for MkDocs (squidfunk.github.io)](https://squidfunk.github.io/mkdocs-material/)
+- Based on this setup [jobindjohn/obsidian-publish-mkdocs: A Template to Publish Obsidian/Foam Notes on Github Pages (uses MkDocs)](https://github.com/jobindjohn/obsidian-publish-mkdocs)
 ### Hosting & CI
-- [Cloudflare](https://www.cloudflare.com/)
+Free hosting using [Cloudflare](https://www.cloudflare.com/)
+Set ENV var PYTHON_VERSION to 3.7 and use this build command
+```bash 
+pip install --upgrade pip && pip install mkdocs-material && pip install mkdocs-roamlinks-plugin && pip install mkdocs-mermaid2-plugin && shopt -s extglob && mkdir docs && mv !(docs) ./docs/ && cp ./docs/mkdocs.yaml ./mkdocs.yaml && cp ./docs/README.md ./docs/index.md && mkdocs build
+```
