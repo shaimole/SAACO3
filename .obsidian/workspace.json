@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computing/EC2.md",
+                "file": "computing/ECS.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computing/EC2.md",
+                "file": "computing/ECS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computing/EC2.md",
+                "file": "computing/ECS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computing/EC2.md"
+                "file": "computing/ECS.md"
               }
             }
           }
@@ -173,7 +173,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b17601c6e0897bb3",
+  "active": "8784e55f49e3bd4d",
   "lastOpenFiles": [
     "computing/EC2.md",
     "computing/Batch.md",
