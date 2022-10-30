@@ -1,3 +1,4 @@
+![[Pasted image 20221030213328.png]]
 # Identity and Access Mangment
 
 - Global Service
