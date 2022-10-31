@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_transfer/VPN.md",
+                "file": "machine_learning/SageMaker.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_transfer/VPN.md",
+                "file": "machine_learning/SageMaker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_transfer/VPN.md",
+                "file": "machine_learning/SageMaker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_transfer/VPN.md"
+                "file": "machine_learning/SageMaker.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "7add63d20084d0a5",
   "lastOpenFiles": [
-    "data_transfer/DirectConnect.md",
-    "data_transfer/VPN.md",
-    "data_transfer/Transfer.md",
-    "data_transfer/StorageGateway.md",
-    "data_transfer/VirtualInterfaces.md",
-    "data_transfer/AppFlow.md",
-    "data_transfer/data_migration/MGN.md",
-    "data_transfer/data_migration/DataSync.md",
-    "data_transfer/data_migration/DMS.md",
-    "data_transfer/data_migration/ADS.md"
+    "machine_learning/Recognition.md",
+    "machine_learning/QuickSight.md",
+    "storage/Aurora.md",
+    "machine_learning/Polly.md",
+    "machine_learning/Personalize.md",
+    "machine_learning/Lex.md",
+    "machine_learning/Kenda.md",
+    "machine_learning/Forecast.md",
+    "machine_learning/Comprehend.md",
+    "data_transfer/VPN.md"
   ]
 }

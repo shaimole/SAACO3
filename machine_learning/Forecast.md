@@ -1,3 +1,5 @@
+![[Pasted image 20221031140145.png]]
 # Forecast
-- deliver highly accurate forecast
-- reduce forecasting time from months to hours
+
+## TLDR
+This is an AI used to deliver highly acurarte Forecasts. 
