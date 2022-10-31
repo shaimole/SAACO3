@@ -1,32 +1,30 @@
-# AWS Organisation
-- group of multiple AWS Accounts
-- global service
-- manage multiple accounts
-- one main account the others join
-- one account can not be in 2 orgs
+![[Pasted image 20221031085836.png]]
+# AWS Organisations
 
-## Pricings
-- consolidated billing makes monthly fees for some ressources only being paid once
-- benefits for aggregated usage
-- shared reserved instances and savings plans discount across accounts
+## TLDR
+This is a service to manage multiple accounts and big user count at a central place. Also has features regarding pricing and setting standards.
 
 ## Features
-- shared ressources
-- api to create accounbts
+- Group multiple AWS accounts
+- Global service
+- Manage multiple accounts
+- There is one main account which is the root, the other accounts  join the [[AWSOrganisations]] of the root account as member accounts
+- Shared ressources possbile (See [[VPC]])
+- You can leverage the API to quickly create new AWS accounts
+- Can use a central [[S3]] account for logs
+- Central audit account
+
+## Limitations
+- A single account can not be in two diffrent organisations
+
+## Cost Management
+- Consolidated billing makes monthly fees for some ressources, which are used by multiple accounts within the [[AWSOrganisations]], only be payed once (E.g. [[AWSShield]])
+- Benefits for aggregated usage of ressources and services
+- Share reserved [[EC2]] instances and savings plans between your AWS  accounts
 
 
 ## Structure
-### Root OU
-### Managment Account
-#### Custom OU
-##### Member Accounts
-#### Custom OU
-##### Custom OU
+![[Pasted image 20221031091158.png]]
 
-## Advanatges
-- Prices
-- central s3 account for logs
-- central audit account
-### SCP
-- Serve Control Policies
-- IAM for User Groups (OUs)
+### Serve Control Policies (SCP)
+- [[IAM]] Policies for Account Groups (OUs)

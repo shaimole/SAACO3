@@ -1,7 +1,13 @@
+![[Pasted image 20221031092232.png]]
 # Connect
-- recive calls
-- create contract flows
-- virtual contact center
-- can integrate with other crm systems or AWS
-- no upfront payments
+
+## TLDR
+Connect is a virtual callcenter in the AWS Cloud.
+
+## Features 
+- Recieve calls
+- Create contract flows
+- Virtual contact center
+- Can integrate with other CRM systems or AWS
+- No upfront payments
 - 80% cheaper than traditional contact center solutions

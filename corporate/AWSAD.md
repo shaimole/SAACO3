@@ -1,13 +1,19 @@
-# Directory Serive
-- support for ms AD
+![[Pasted image 20221031085227.png]]
+# Directory Service
 
-## AWS Manged AD
-- AD Manged on aws side
-- on prem and aws ads trust each other
+## TLDR
+A collection of sub services which allows companies to leverage directory authentification within AWS. Supports Microsoft Active Directoy.
+
+## Versions
+
+### AWS Manged Active Directory
+- The Active Directory is manged on aws side.
+- Can also be used on premise, a 2 side trust connection is established between aws AD and on prem AD
 
 ## AD Connector
-- Can auth in aws which proxies to domain controller on prem
+- Can use on prem ad auth in aws, by proxying to the ad domain controller on premise
+- AD is managed on premise
 
 ## Simple AD
-- AD Complate managed in AWS 
-- no on prem required but can be joined
+- Create a new AD managed in AWS 
+- No on prem AD required but can be joined

@@ -1,21 +1,26 @@
-# AWS Control Towert
-- multi account AWS Env setup
-- uses AWS Organisations
+![[Pasted image 20221031092405.png]]
+# AWS Control Tower
+
+## TLDR
+Control Tower is often used in conjunction with [[AWSOrganisations]]
+to manage and configure a multi account setup.
+
 ## Benefits
-- automate setup of orgas
-- automate policy managed using guard rails
-- detect policy viloations
-- monitor compliance through dashboard
-- streamline account creation in org
+- Automate setup of [[AWSOrganisations]]
+- Automate policy management using guard rails
+- Detect policy viloations
+- Monitor compliance through dashboard
+- Streamline account creation in [[AWSOrganisations]]
 
 ## Guardrails
 
 ### Preventive Guardrail
-- uses SCPs
+- uses [[AWSOrganisations]] SCP
 - e.g. restrict regions across all accounts
+
 ### Detective Guiardrail
-- uses AWS Config
+- uses [[AWSConfig]]
 - e.g. identify untagged ressources
 
-## Integration
-- SNS
+## Further Integration
+- [[SNS]]

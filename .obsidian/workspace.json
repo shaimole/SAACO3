@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computing/Proton.md",
+                "file": "corporate/SystemsManager.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computing/Proton.md",
+                "file": "corporate/SystemsManager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computing/Proton.md",
+                "file": "corporate/SystemsManager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computing/Proton.md"
+                "file": "corporate/SystemsManager.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "7add63d20084d0a5",
   "lastOpenFiles": [
-    "computing/Lambda.md",
-    "computing/ElasticTranscoder.md",
-    "computing/ElasticBeanstalk.md",
-    "computing/EKS.md",
-    "computing/ECS.md",
-    "access/SSM.md",
-    "computing/EC2.md",
-    "computing/Batch.md",
-    "computing/AppRunner.md",
-    "storage/EBS.md"
+    "corporate/IdentityCenter.md",
+    "corporate/ControlTower.md",
+    "corporate/Connect.md",
+    "corporate/Cognito.md",
+    "corporate/AWSOrganisations.md",
+    "corporate/AWSAD.md",
+    "utils/OnPremise.md",
+    "well_architected_framework/Pillars.md",
+    "well_architected_framework/Principles.md",
+    "scalabily/APIGateway.md"
   ]
 }
