@@ -1,16 +1,23 @@
+![[Pasted image 20221031105246.png]]
 # Amazon AppFlow
-- managed services top transer data between SasS Platforms and AWS
+
+## TLDR 
+Transfer data from 3rd party (SasS) Systems into and out of AWS.
+
+## Features
 - Encrypted over public internet
-- support AWS PrivateLink
+- support AWS Private Link (traffic over aws internal network instead of internet )
+
 ## Sources
 - Salesforce
 - SAP
 - Zendesk
 - Slack
 - ServiceNow
+
 ## Destinations
-- S3
-- Redshift
+- [[S3]]
+- [[Redshift]]
 - 3rd Party
 
 ## Frequency
