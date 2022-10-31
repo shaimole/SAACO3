@@ -1,26 +1,37 @@
+![[Pasted image 20221031103135.png]]
 # AWS Data Sync
-- online data transfer service
-- use for one time transfers of data which no longer need to be in other location synced
-- accelerates copying large amounts of data between on-premises and aws
+
+## TLDR
+Data Sync is used for a secure one time transfer of data via the internet from a source into AWS.
+
+## Features
+- accelerates copying large amounts of data between a source and aws
 - encrypted
+
+## Use Cases
+- one time transfers of data which no longer need to be in other location synced
+
 ## Sources
-- on premise
-- edge
-- other clouds
+- On premise
+- Edge
+- Other clouds
+
 ## Targets
-- s3
-- efs
-- FSx for Windows file server
-- FSx for Lustre
+- [[S3]]
+- [[EFS]]
+- [[FSxWindowsFileServer]]
+- [[FSxLustre]]
 - FSX for OpenZFS
 - NetApp ONTAP
 
 ## Data Sync Agent
-- run as a vm on premises
+- Runs as a vm on premises
+
 ## S3 Outpost
-- runs on EC2 on the outpost
+- Runs on EC2 on the outpost
+
 ## Snowcone
 - Agent comes pre installed on physical device
 
 ## Route
-- Onpremise File System -> On premise Data Sync Agent -> AWS Direct Connect Connection or Internet -> AWS Datasync service -> Cloud storage 
+- Onpremise File System -> On premise Data Sync Agent -> AWS [[DirectConnect]] or Internet -> AWS [[DataSync]] service -> Cloud storage 

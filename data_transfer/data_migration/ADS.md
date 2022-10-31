@@ -1,13 +1,17 @@
+![[Pasted image 20221031102804.png]]
 # Application Discovery Service
-- plan your migration to the cloud
-- scans your servers and network
+
+## TLDR
+Scan your on premise machines and network. Upload the gained information to AWS in preparation for a migaration of **servers**.
 
 ## Types
+You can choose to install an AWS Agent on premise.
 
 ### Agentless Discovery
-- VM inventory, configuration and performance history
-### Agent Bases Discovery
-- System configuration, system performance, running proicesses and detail aof the network connections between systems
+- Get VM inventory, configuration and performance history
+
+### Agent Based Discovery
+- System configuration, system performance, running processes and detail aof the network connections between systems
 
 ## Resulting Data
-- can be viewed in AWS Migrations hub
+- Can be viewed in AWS Migrations hub
