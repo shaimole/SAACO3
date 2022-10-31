@@ -1,5 +1,13 @@
+![[Pasted image 20221031095237.png]]
 # Savings Plans
-- flexible pricing model
-- works for ec2, lambda and fargate
-- commit to amount of usage in hours
-- 1 or 3 year
+
+## TLDR
+Compare different pricing models, choose to reserve capacity instead of instances to get a discount.
+
+## Features
+- Flexible pricing model
+- Works for [[EC2]], [[Lambda]] and [[ECS]] Fargate
+- Commit to amount of usage in hours
+
+## Limitations
+- Only 1 or 3 year plans

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "corporate/SystemsManager.md",
+                "file": "cost_management/TrustedAdvisor.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "corporate/SystemsManager.md",
+                "file": "cost_management/TrustedAdvisor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "corporate/SystemsManager.md",
+                "file": "cost_management/TrustedAdvisor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "corporate/SystemsManager.md"
+                "file": "cost_management/TrustedAdvisor.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "7add63d20084d0a5",
   "lastOpenFiles": [
+    "cost_management/SavingsPlans.md",
+    "computing/EC2.md",
+    "cost_management/CostExplorer.md",
+    "cost_management/CostAllocationTags.md",
+    "cost_management/ComputeOptimizer.md",
+    "cost_management/AWSBilling.md",
+    "corporate/SystemsManager.md",
     "corporate/IdentityCenter.md",
     "corporate/ControlTower.md",
-    "corporate/Connect.md",
-    "corporate/Cognito.md",
-    "corporate/AWSOrganisations.md",
-    "corporate/AWSAD.md",
-    "utils/OnPremise.md",
-    "well_architected_framework/Pillars.md",
-    "well_architected_framework/Principles.md",
-    "scalabily/APIGateway.md"
+    "corporate/Connect.md"
   ]
 }

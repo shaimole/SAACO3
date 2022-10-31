@@ -85,7 +85,7 @@ EC2 is a the combination of a virtual mashine and hardware capacity attached to 
 - More expensive than default
 - Can change instance type, os, region, tenacy
 
-### Savings Plans
+### [[SavingsPlans]]
 - 1 Year OR 3 Years
 - Up to same discount as default reserved instance
 - Commit to an amount of usage (cpu, mem, disk)

@@ -1,10 +1,14 @@
+![[Pasted image 20221031094906.png]]
 # Cost Explorer
-- Visualize understand and manage AWS cost and usage over time
-- create custom reports
-- Analyse at a higher level
-- supporet monthly, hourly and ressource level granularity
-- choose a savings plan
-- forecast usage up to 12 months based on previous usage
 
-## Savings Plan
-- alternative to reserved instances
+
+## TLDR 
+Finer detail of cost than [[AWSBilling]] but this is a paid service. 
+
+## Features
+- Visualize understand and manage AWS cost and usage over time
+- Create custom reports
+- Analyse at a higher level
+- Support monthly, hourly and ressource level granularity
+- Helps Choose a savings plan
+- Forecast usage up to 12 months based on previous usage
