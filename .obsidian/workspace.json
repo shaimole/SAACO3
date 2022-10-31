@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cost_management/TrustedAdvisor.md",
+                "file": "data_transfer/data_migration/ADS.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cost_management/TrustedAdvisor.md",
+                "file": "data_transfer/data_migration/ADS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cost_management/TrustedAdvisor.md",
+                "file": "data_transfer/data_migration/ADS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cost_management/TrustedAdvisor.md"
+                "file": "data_transfer/data_migration/ADS.md"
               }
             }
           }
@@ -187,15 +187,15 @@
   },
   "active": "7add63d20084d0a5",
   "lastOpenFiles": [
-    "cost_management/SavingsPlans.md",
-    "computing/EC2.md",
-    "cost_management/CostExplorer.md",
-    "cost_management/CostAllocationTags.md",
-    "cost_management/ComputeOptimizer.md",
-    "cost_management/AWSBilling.md",
-    "corporate/SystemsManager.md",
-    "corporate/IdentityCenter.md",
-    "corporate/ControlTower.md",
-    "corporate/Connect.md"
+    "data_transfer/VPN.md",
+    "data_transfer/Transfer.md",
+    "data_transfer/StorageGateway.md",
+    "data_transfer/MGN.md",
+    "data_transfer/Interfaces.md",
+    "data_transfer/data_migration/Snow.md",
+    "data_transfer/data_migration/DMS.md",
+    "data_transfer/AppFlow.md",
+    "data_transfer/data_migration/DataSync.md",
+    "data_transfer/data_migration/ADS.md"
   ]
 }
