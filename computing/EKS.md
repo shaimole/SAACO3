@@ -8,7 +8,7 @@ Kubernetes in AWS. [[ECS]] Default options are not Kubernetes, but AWS own tech.
 
 ### Manged Node Groups
 - Creates [[EC2]] instances for you
-- ASG managed by [[EKS]]
+- [[ASG]] managed by [[EKS]]
 - Supports on demand and spot instances
 
 ### Self Managed

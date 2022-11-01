@@ -19,7 +19,7 @@ AWS family of load balancers. Is used to spread and control traffic to a vertica
 ## General
 - managed by aws
 
-## compatible services
+## Compatible services
 - [[EC2]]
 - [[EC2]] [[ASG]]
 - [[ECS]]
@@ -42,7 +42,7 @@ AWS family of load balancers. Is used to spread and control traffic to a vertica
 - http, https , websocket (layer 7)
 - need target groups
 - can use to target diffrent containers on same mashine
-- good for ecs and docker
+- good for [[ECS]] and docker
 - port mapping feature
 - fixed hostname
 - app servers dont see the clients ip directly
@@ -86,14 +86,13 @@ AWS family of load balancers. Is used to spread and control traffic to a vertica
 - [[EC2]] Instances
 - Private Ips
 
-
 ## Security
-- uses Security Groups
+- uses [[SecurityGroup]]
 
 ## Sticky Session
 - by default requests are spread
-- can be enabled for CLB and ALB
-- controlled via cookie set by the ELB
+- can be enabled for [[ELB]] CLB and ALB
+- controlled via cookie set by the [[ELB]]
 - might bring imbalance to the nodes
 
 ### Cookie Types
@@ -183,6 +182,7 @@ AWS family of load balancers. Is used to spread and control traffic to a vertica
 
 ##### Target Tracking
 - i want cpu to stay around 50%
+- no cooldown period
 
 ##### Simple Step Scaling
 - when cpu > 70 add 2 && when cpu < 10% remove 2

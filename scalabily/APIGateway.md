@@ -15,23 +15,29 @@
 ## Targets
 - Lambda for REST
 - any HTTP endpoint
-- any AWS API (Step function, SQS, ...)
+- any AWS API ([[StepFunction]], [[SQS]], ...)
 
 ## Endpoint Types
+
+
 ### Edge Optimized
-- routed through cloudfront
+- routed through [[Cloudfront]]
 - used for global clients
+
 ### Regional
 - clients within the same region
-- manually combine with cloudfront for more control
+- manually combine with [[Cloudfront]] for more control
+
 ### Private
 - only from within your vpc
 - can use ressource policy
+
 ## Authentification
-- IAM Roles (for internal Application)
-- Cognito for External Users
-- Custom Autherized (using Lamba and own code)
+- [[IAM]] Roles (for internal Application)
+- [[Cognito]] for External Users
+- Custom Autherized (using [[Lambda]] and own code)
+
 ### Custom Domanin  name HTTP Secuirty
-- use ACM 
-- ACM cert must be in us east 1 for Edge Optimized
-- must use route 53
+- use [[utils/ACM]] 
+- [[utils/ACM]] cert must be in us east 1 for Edge Optimized
+- must use  [[Route53]]

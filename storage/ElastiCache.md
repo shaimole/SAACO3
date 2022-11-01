@@ -1,4 +1,10 @@
+![[Pasted image 20221101164642.png]]
 # Elasticache
+
+## TLDR
+Voliltile Caching Layer with high performance.
+
+## Features
 - in memory data store
 - boost performance of databases
 - use cases caching, session stores, gaming, geospatial services, real time analytics and queuing
@@ -6,8 +12,16 @@
 - helps make app stateless
 - aws manged (os, patching, monitoring, failure recover, backups)
 - requires app changes
+
+## Use Cases
+- read heavy hpc tasks
+- compute heavy hpc tasks
+- session stores
+- high performance db caching
+- ...
+
 ## Redis
-- see own doc
+- see [[Redis]]
 
 ## Memcached
 - open source memory store
@@ -23,8 +37,9 @@
 - non persistent
 - no backups
 - support SASL based auth
+
 ## Security
-- no IAM Auth
+- no [[IAM]] Auth
 - can us ssl encruption for in flight
 
 ## Loading patterns

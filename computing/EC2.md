@@ -108,6 +108,7 @@ EC2 is a the combination of a virtual mashine and hardware capacity attached to 
 - Rent an entire physical server, control placement of that server
 - can use on demand or reserved 
 - most expensive 
+- can convert to dedicated instance
 
 #### Use Cases
 - Complicance
@@ -117,6 +118,7 @@ EC2 is a the combination of a virtual mashine and hardware capacity attached to 
 - No other customer will share the hardware used by you
 - Hardeware may be shared within same account
 - No control over instance placement (hardware might be moved)
+- can convert to dedicated host
 
 ### Capacity Reservations
 - Reserve a capacity in a AZ for duration (on demand instance)
@@ -132,6 +134,11 @@ EC2 is a the combination of a virtual mashine and hardware capacity attached to 
 - Request for an instance and the instance running itself is diffrent
 - If you terminate your instance but not the request the instance will be relaunched
 - If you cancel your request your instance will still be running
+![[Pasted image 20221101164159.png]]
+### Spot Blocks
+- Duration window of your Spot instance 
+- 1 to 6 hours
+- designed to not be interrupted
 
 ### Fleet
 - Define multiple options for instance type , region etc
@@ -180,6 +187,12 @@ Placement strategy for a group ec2 instances
 - Can attach mac adress
 - Can attach and detach from instance
 - Bound by AZ
+### EFA Elastic Fabric Adapter
+- use to accelerate high performance computing by providing os bypacc hardware interface
+
+### ENA Elastic Network Adapter
+- use for high performance networking capabilitiies
+- slower than efa
 
 ## EC2 Hibernate
 - Standby for EC2, ram is saved
@@ -187,3 +200,8 @@ Placement strategy for a group ec2 instances
 - Root [[EBS]] must be encrypted
 - Used for breaks in very long running tasks or if an instances takes very long to startup
 - Can last no longer than 60 days
+
+## EC2 Instance Recover
+- Creates a new EC2 instance which is identical to the previous ec2
+- recovers private and public ip, metadat, elastic ip, instandce id
+- data in memory is lost

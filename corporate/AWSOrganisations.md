@@ -28,3 +28,9 @@ This is a service to manage multiple accounts and big user count at a central pl
 
 ### Serve Control Policies (SCP)
 - [[IAM]] Policies for Account Groups (OUs)
+- Affect all users even the root user
+- Dont affect service linked policies (like [[S3]] bucket policy)
+
+## Cloudformation StackSets
+- create stacks in AWS accounts across regions using a single Template
+- use the template as the basis for provisioning stakcs

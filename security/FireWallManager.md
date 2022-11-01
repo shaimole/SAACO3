@@ -1,10 +1,10 @@
 # AWS Firewall Manager
 - manage firewall rules on organsiation level
 ## Servies Support
-- WAF
+- [[WAF]]
 - Shield Adavances
-- SGs
+- [[SecurityGroup]]
 - Network firewall (NACL etc)
-- Route 53 DNS Firewall
+- [[Route53]] DNS Firewall
 - region level
 - automatic apply rules to new ressources
