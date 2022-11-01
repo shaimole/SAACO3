@@ -47,8 +47,12 @@
             "id": "b1ca27adef876cd4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "storage/S3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -105,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vault",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,6 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "storage/S3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "storage/S3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +186,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "storage/S3.md"
+              }
             }
           }
         ]
@@ -192,15 +200,15 @@
   },
   "active": "b1ca27adef876cd4",
   "lastOpenFiles": [
-    "storage/DynamoDB.md",
+    "utils/Backup.md",
     "messaging/Kinesis.md",
+    "scalabily/ELB.md",
+    "scalabily/ASG.md",
+    "storage/EBS.md",
+    "storage/DynamoDB.md",
+    "storage/DocumentDB.md",
     "security/WAF.md",
     "security/FireWallManager.md",
-    "storage/S3.md",
-    "machine_learning/QuickSight.md",
-    "storage/RDS.md",
-    "storage/Aurora.md",
-    "data_transfer/data_migration/Snow.md",
-    "scalabily/ELB.md"
+    "storage/S3.md"
   ]
 }

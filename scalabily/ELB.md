@@ -47,6 +47,7 @@ AWS family of load balancers. Is used to spread and control traffic to a vertica
 - fixed hostname
 - app servers dont see the clients ip directly
 - cannot attach elastic ip
+- cross AZ load balancing enabled by default
 
 ### Target groups
 - [[EC2]] Instances
@@ -66,6 +67,7 @@ AWS family of load balancers. Is used to spread and control traffic to a vertica
 - one static ip per AZ
 - support elastic IP
 - health checks with tcp, http or https
+- cross AZ load balancing is disabled by default
 
 ### Target Groups
 - [[EC2]] Instances

@@ -67,6 +67,7 @@ Kinesis is a set of services for streaming real time or next to real time data i
 - Firehouse to load streaming into aws data stores
 - Firehouse is not real time
 - Firehouse has close ended consumer options
+- Firehouse has a single target
 
 ## Firehouse
 - load steaming data into data stores/ lakes and analytic tools
@@ -76,6 +77,7 @@ Kinesis is a set of services for streaming real time or next to real time data i
 - batch
 - transform
 - encrypt
+- SINGLE consumer
 
 ### Cost
 - pay per Data send

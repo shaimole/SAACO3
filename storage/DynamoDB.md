@@ -57,3 +57,6 @@ NoSQL Serverless DB. Tons of features and can be global.
 
 ## Export
 - export import to [[S3]]
+
+## Security
+- support [[KMS]] Customer Managed Key
