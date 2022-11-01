@@ -30,6 +30,7 @@ AWS IAM is a global service. Its used in nearly all other services to control pe
 - maximum permission employees can grant to other entities
 - uses managed policies
 - is attached to principal (which is the AWS Account)
+- can only be set on users and roles
 
 ## Policies
 - Handles permissions
@@ -112,5 +113,5 @@ AWS IAM is a global service. Its used in nearly all other services to control pe
 - some service support iam some use ressource based policies
 
 ### Cross Account
-- attach policy to a resouce (S3)
+- attach policy to a resouce ([[S3]])
 - use a role as a proxy (give role access)

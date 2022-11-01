@@ -1,32 +1,39 @@
+![[Pasted image 20221101130307.png]]
 # Eastic File System
-- Network file system that can be mounted to multiple instances
+
+## TLDR 
+High performance network file system which is pay per gb use and can attach to multiple services in multiple AZs.
+
+## Features
 - multi AZ
 - high avalilable, scalable and expensive
 - pay per use
+- uses [[SecurityGroup]]
 
 ## Uses cases
 - Content Management, web serving, data sharing
 - NFSv4.1 protocol
-- uses SGs
 - Only compatible with linux
-- encyption at rest with kms
+- encyption at rest with [[KMS]]
 - posix file system
-- scales automaticly, pay per use
 
 ## Performance
 - 1000s of clients 10GBs throughput
 - Can handle petabyte scale data
-### performances Modes
-- set at efs creation time
+
+### Performances Modes
+- set at creation time
+
 #### General purpose
 - web server, cms
 - latency sensitive
+
 #### Max IO
 - higher latency and throughput
 - paralell
 - big data, media processing
 
-### throughput modes
+### Throughput modes
 
 #### bursting
 - 1 tb = 50mbs + burst of up to 100mbs
@@ -37,17 +44,20 @@
 ## Storage classes
 
 ### Storage Tiers
-- livecycle managemed for cost savings
+- livecycle managemet for cost savings
 - uses livecycle policies
+
 #### Standard 
 - frequently access files
-#### Ifrequent access
+
+#### Infrequent access
 - cost to retrieve files but lower storage costs
 
 ## Availablity
 
 ### Standard 
 - multi AZ
+
 ### One Zone
 - one AZ
 - good for dev

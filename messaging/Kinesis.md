@@ -1,3 +1,4 @@
+![[Pasted image 20221101120425.png]]
 # Kinesis
 - region scoped
 - real time data streaming service
@@ -14,11 +15,13 @@
 
 ## Kineis Data Streams detail
 - shards which split data and computing power
+
 ### Record
 - entry in kinesis
 - parition key which targets the shard
 - data blob (up to 1mb)
 - Producers can set 1mbs and 1000msg per sec per SHARD
+
 #### Consumer
 - recieves partion key, seceqnce number and blog
 - thoughput 2mbs per sec shared for all consumers
@@ -27,15 +30,19 @@
 - lambda
 - kinesis firehouse
 - kinesis data analytics
+
 ### Retention
 - between 1 and 365 days
 - can replay data
 - immutabilty
-### modes
+
+### Modes
+
 #### Provisoned Mode 
 - choose numer of shards, scale manualy
 - 1mbs in 2 mbs sec out per shard
 - pay per shard per hour
+
 #### On demand
 - default capacity provisoned (4mbs)
 - scales on throughput peak observed within the last 30 days
@@ -48,9 +55,13 @@
 - can also use client side encryption
 - vpc endpoint for access from vpc
 - monitor with cloud trail
+
 ## Kinesis Streams vs Firehouse
-- Streams to capture data
-- Firehouse to load into aws data stores
+- Streams to capture data in real time, and ingest at scale
+- Firehouse to load streaming into aws data stores
+- Firehouse is not real time
+- Firehouse has close ended consumer options
+
 ## Firehouse
 - load steaming data into data stores/ lakes and analytic tools
 - serverless
@@ -59,9 +70,11 @@
 - batch
 - transform
 - encrypt
+
 ### Cost
 - pay per Data send
 - near real time (60 sec minimum)
+
 ### Producers
 - Clients
 - Apps
@@ -70,18 +83,22 @@
 - AWS IOT
 - Cloudwatch logs and events
 - kinesis data streams
+
 ### Targets
 - S3
 - Redshift
 - Elasticsearch
 - Splunk
 - custom http endpoints
+
 ## Data Analytics for SQL Application
 - serverless
 - pay per consumption rate
 - read from Data Streams or Firehouse
 - use SQL Statements while refrencing s3
 - send againt to another Kinesis Stream or Firehouse
+- stores data
+
 ### Usage
 - Real Time anaytics
 
@@ -93,9 +110,11 @@
 - backups
 - any apache flink feature
 - uses aws manged cluster behind the scenes
+
 ## Sources
 - Kinesis Data Steams
 - MSK
+
 ## Usage
 - more powerful queries
 - run complex queries
@@ -105,19 +124,26 @@
 - in SQS there is no ordering
 - in SQS FIFO there is only one consumer and order stays the same
 - in SQS FIFO queue if you want to send related data to diffrent consumers you use a group id, which works then similar to kinesis
+
 ### SQS VS SNS VS KINESIS
+
 #### SQS 
 - pull data then delete message via api call from consumer
+- Message is processed by exacly one consumer (hopefully)
 - as many workers at you want
 - scales indefiently
 - need fifo for order
+
 #### SNS
 - push same data to multiple subscribers
 - data is not persistent
 - fan out to combine with SQS
+
 #### Kinesis
 - standard 2mb per shard pull data
+- consumers can consume data concurrently
 - enhanced fan ut 2mb per shard per consumer , push data
+- limited amount of consumers (by shard)
 - replay data
 - ment for real time big data
 - ordering at shard level

@@ -37,7 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "machine_learning/SageMaker.md",
+                "file": "messaging/Pinpoint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1ca27adef876cd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "access/IAM.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "machine_learning/SageMaker.md",
+                "file": "access/IAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "machine_learning/SageMaker.md",
+                "file": "access/IAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "machine_learning/SageMaker.md"
+                "file": "access/IAM.md"
               }
             }
           }
@@ -185,17 +197,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7add63d20084d0a5",
+  "active": "b1ca27adef876cd4",
   "lastOpenFiles": [
-    "machine_learning/Recognition.md",
-    "machine_learning/QuickSight.md",
-    "storage/Aurora.md",
-    "machine_learning/Polly.md",
-    "machine_learning/Personalize.md",
-    "machine_learning/Lex.md",
-    "machine_learning/Kenda.md",
-    "machine_learning/Forecast.md",
-    "machine_learning/Comprehend.md",
-    "data_transfer/VPN.md"
+    "storage/S3.md",
+    "access/IAM.md",
+    "computing/AMI.md",
+    "storage/EFS.md",
+    "scalabily/ASG.md",
+    "messaging/Kinesis.md",
+    "corporate/Cognito.md",
+    "computing/EC2.md",
+    "messaging/SQS.md",
+    "security/HSM.md"
   ]
 }

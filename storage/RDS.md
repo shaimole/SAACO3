@@ -1,5 +1,11 @@
+![[Pasted image 20221101124548.png]]
 # RDS
-- scaling capacity (up to set maximum storage, every 6h max, 5 mins needs to be low storage which is less than 10% remaining)
+
+## TLDR
+Various  relational databases, manged by aws.
+
+## Features
+- scaling capacity (up to set maximum storage, every 6h max, 5 mins needs to be low storage which is less than 10% remaining) this needs to be enabled.
 - os patching
 - no ssh
 - monitoring dashboards

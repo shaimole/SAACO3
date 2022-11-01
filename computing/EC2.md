@@ -102,6 +102,7 @@ EC2 is a the combination of a virtual mashine and hardware capacity attached to 
 - Short workloads
 - Suited for resiliant jobs
 - Distributed workloads (these are resiliant by definition)
+- batch jobs
 
 ### Dedicated Hosts
 - Rent an entire physical server, control placement of that server

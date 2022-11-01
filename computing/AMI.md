@@ -15,5 +15,5 @@ AMIs are preconfigured [[EC2]] Instance templates. Very similar to dockerfiles. 
 - Start [[EC2]]instance
 - run scripts/setup and add all data you want the AMI to have
 - stop [[EC2]] instance
-- build AMI (also creates an [[EBS]] Snapshot)
+- build AMI (also creates an [[EBS]] Snapshot, if you delete this snapshot the AMI wont work)
 - Launch new instances with your freshly created AMI
