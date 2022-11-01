@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "corporate/AWSAD.md",
+                "file": "utils/Cloudformation.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,10 +109,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "direct",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -126,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "corporate/AWSAD.md",
+                "file": "utils/Cloudformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "corporate/AWSAD.md",
+                "file": "utils/Cloudformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "corporate/AWSAD.md"
+                "file": "utils/Cloudformation.md"
               }
             }
           }
@@ -200,15 +199,15 @@
   },
   "active": "b1ca27adef876cd4",
   "lastOpenFiles": [
-    "computing/EC2.md",
-    "scalabily/ASG.md",
-    "computing/EKS.md",
-    "scalabily/ELB.md",
-    "security/WAF.md",
+    "corporate/AWSOrganisations.md",
+    "utils/Cloudformation.md",
+    "utils/Cloudfront.md",
+    "utils/Backup.md",
+    "utils/AWSConfig.md",
+    "utils/Athena.md",
+    "utils/ACM.md",
+    "storage/Timestream.md",
     "storage/S3.md",
-    "networks/GlobalAccelerator.md",
-    "networks/Route53.md",
-    "security/AWSShield.md",
-    "utils/CloudWatch.md"
+    "storage/Redshift.md"
   ]
 }
