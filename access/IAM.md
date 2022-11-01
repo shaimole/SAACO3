@@ -65,6 +65,8 @@ AWS IAM is a global service. Its used in nearly all other services to control pe
 - restrict by tag(user and ressouce)
 - force mfa
 - account org
+### Trust Policy
+- Defines/Limits which ressource an asume the IAM role
 
 ## Password Policy
 

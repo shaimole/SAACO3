@@ -1,5 +1,11 @@
 ![[Pasted image 20221101120425.png]]
 # Kinesis
+
+## TLDR
+Kinesis is a set of services for streaming real time or next to real time data in AWS. Its generaly more expensive and more difficult to setup than [[SQS]] but offers more features and higher performance.
+
+
+## Features
 - region scoped
 - real time data streaming service
 - gigabytes of data per second
@@ -13,7 +19,7 @@
 - keep order of records
 - routing related records to the same consumer
 
-## Kineis Data Streams detail
+## Kineis Data Streams Detail
 - shards which split data and computing power
 
 ### Record
@@ -27,7 +33,7 @@
 - thoughput 2mbs per sec shared for all consumers
 - enhances 2mb per sec per consumer
 - apps using sdk
-- lambda
+- [[Lambda]]
 - kinesis firehouse
 - kinesis data analytics
 
@@ -49,12 +55,12 @@
 - pay per hour and data in out per GB
 
 ### Security
-- KMS at rest
+- [[KMS]] at rest
 - https in flight
-- iam for access
+- [[IAM]] for access
 - can also use client side encryption
-- vpc endpoint for access from vpc
-- monitor with cloud trail
+- [[VPC]] endpoint for access from [[VPC]]
+- monitor with [[CloudTrail]]
 
 ## Kinesis Streams vs Firehouse
 - Streams to capture data in real time, and ingest at scale
@@ -79,14 +85,14 @@
 - Clients
 - Apps
 - SDK
-- Kinesis Agfent
+- Kinesis Agent
 - AWS IOT
-- Cloudwatch logs and events
+- [[CloudWatch]] logs and events
 - kinesis data streams
 
 ### Targets
-- S3
-- Redshift
+- [[S3]]
+- [[Redshift]]
 - Elasticsearch
 - Splunk
 - custom http endpoints
@@ -95,7 +101,7 @@
 - serverless
 - pay per consumption rate
 - read from Data Streams or Firehouse
-- use SQL Statements while refrencing s3
+- use SQL Statements while refrencing [[S3]]
 - send againt to another Kinesis Stream or Firehouse
 - stores data
 
@@ -113,7 +119,7 @@
 
 ## Sources
 - Kinesis Data Steams
-- MSK
+-  [[MSK]]
 
 ## Usage
 - more powerful queries
@@ -121,20 +127,20 @@
 
 ## Data Ordering in SQS vs Kinesis
 - kinesis your producers need to use the same partition/shard key for related data
-- in SQS there is no ordering
-- in SQS FIFO there is only one consumer and order stays the same
-- in SQS FIFO queue if you want to send related data to diffrent consumers you use a group id, which works then similar to kinesis
+- in [[SQS]] there is no ordering
+- in [[SQS]] FIFO there is only one consumer and order stays the same
+- in [[SQS]] FIFO queue if you want to send related data to diffrent consumers you use a group id, which works then similar to kinesis
 
-### SQS VS SNS VS KINESIS
+### [[SQS]] VS [[SNS]] VS [[Kinesis]]
 
-#### SQS 
+#### [[SQS]] 
 - pull data then delete message via api call from consumer
 - Message is processed by exacly one consumer (hopefully)
 - as many workers at you want
 - scales indefiently
 - need fifo for order
 
-#### SNS
+#### [[SNS]]
 - push same data to multiple subscribers
 - data is not persistent
 - fan out to combine with SQS

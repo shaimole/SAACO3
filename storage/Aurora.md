@@ -1,4 +1,10 @@
+![[Pasted image 20221101210837.png]]
 # Amazon Aurora
+
+## TLDR
+AWS Created custom DB tech, very high performan. Useful for global and serverless relational database applications.
+
+## Features
 - not open source
 - MySQL and Postgre
 - global
@@ -14,16 +20,19 @@
 - faster replication
 - 20% more cost than rds
 - restore to any point in time
+
 ## Primary DB
 - read and write
 - only one per cluster
 - if fails a replica will be promoted
+
 ## Aurora Replica
 - same storage as primary
 - multiple per az possible
 - only read
 - reader endpoint does load balancing
 - can enable replica autoscaling
+
 ## Custom Endpoints
 - subset of aurora instances as custom endpoint(e.g. larger instance type for analytical queries)
 
@@ -46,14 +55,16 @@
 
 ## Aurora machine learing
 - ML based predications to your apps via SQL
+
 ### Use cases
 - fraud detection
 - add targeting
 - sentiment analysis
 - product recommendations
-### Servies
-- SageMaker
-- Comprehend
+
+### Services
+- [[SageMaker]]
+- [[Comprehend]]
 
 ## Backups
 
@@ -66,6 +77,11 @@
 - triggered by user
 - keep as long as user wants
 
-
 ### Restore
 - into new database
+
+### Cloning
+- create a new aurora cluster from a existing one
+- faster than snapshot & restore
+- cost effective
+- usful to create staging

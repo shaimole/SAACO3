@@ -10,5 +10,5 @@ Finer detail of cost than [[AWSBilling]] but this is a paid service.
 - Create custom reports
 - Analyse at a higher level
 - Support monthly, hourly and ressource level granularity
-- Helps Choose a savings plan
+- Helps Choose a [[SavingsPlans]]
 - Forecast usage up to 12 months based on previous usage

@@ -6,6 +6,7 @@ Access AWS Ressources in one or more  [[VPC]]s as if they were in your on premis
 
 ## Design
 - Use non overlapping ip ranges for each network
+- Use Transit Gateway to increase throughput for a single site, this allow multipath routing using aditional vpn tunnelds
 
 ## Options
 
