@@ -83,6 +83,11 @@ This is network storage attached to an [[EC2]] instance.
 - good for database workloads, good storage pref and consistency
 - support ebs multi attach
 
+### Instance Store
+- highest performance but ephemeral
+- is lost even on hibernation
+- cannot be detached and attached to other [[EC2]]
+
 ## EBS Multi attach
 - Same AZ can attach same volume to multiple instances
 - only available for io2 and io1
@@ -107,3 +112,10 @@ This is network storage attached to an [[EC2]] instance.
 - encrypt snapshot
 - create volume from snapshot
 - attach new volume
+
+## Raid
+
+### Raid 0
+- use if IO is more important than fault tolerance
+### Raid 1
+- use if fault tolerance is more important than IO

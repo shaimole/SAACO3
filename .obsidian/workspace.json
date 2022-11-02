@@ -49,7 +49,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "storage/S3.md",
+                "file": "security/FireWallManager.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5e0d1396a738ae5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "utils/Backup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79e74880c71d86cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scalabily/ELB.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -109,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vault",
+                "query": "NLB",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "storage/S3.md",
+                "file": "scalabily/ELB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "storage/S3.md",
+                "file": "scalabily/ELB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "storage/S3.md"
+                "file": "scalabily/ELB.md"
               }
             }
           }
@@ -198,17 +222,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b1ca27adef876cd4",
+  "active": "79e74880c71d86cf",
   "lastOpenFiles": [
-    "utils/Backup.md",
-    "messaging/Kinesis.md",
-    "scalabily/ELB.md",
-    "scalabily/ASG.md",
+    "storage/S3.md",
+    "storage/EFS.md",
     "storage/EBS.md",
-    "storage/DynamoDB.md",
-    "storage/DocumentDB.md",
-    "security/WAF.md",
-    "security/FireWallManager.md",
-    "storage/S3.md"
+    "corporate/AWSOrganisations.md",
+    "utils/Backup.md",
+    "storage/RDS.md",
+    "security/SecretsManager.md",
+    "networks/VPC.md",
+    "machine_learning/QuickSight.md",
+    "storage/LakeFormation.md"
   ]
 }

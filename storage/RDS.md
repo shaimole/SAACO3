@@ -43,6 +43,9 @@ Various  relational databases, manged by aws.
 #### RDS Custom for Oracle
 - alllows customisation to host and os
 
+## Maintenance
+- maintenence causes downtime even if the db is multi AZ
+
 ## Backups
 - daily full backup during maintence window
 - transactions logs are backed up by rds every 5 mins

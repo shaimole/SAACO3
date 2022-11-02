@@ -18,7 +18,7 @@ AWS Created custom DB tech, very high performan. Useful for global and serverles
 - 3x fast than postgre
 - up to 15 replicas
 - faster replication
-- 20% more cost than rds
+- 20% more cost than [[RDS]]
 - restore to any point in time
 
 ## Primary DB

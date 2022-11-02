@@ -40,6 +40,7 @@ High performance network file system which is pay per gb use and can attach to m
 
 #### provisioned
 - set throughput regardless of size
+- use when data created is small but performance needs to be high
 
 ## Storage classes
 

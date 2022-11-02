@@ -30,3 +30,4 @@ This is a service to manage multiple accounts and big user count at a central pl
 - [[IAM]] Policies for Account Groups (OUs)
 - Affect all users even the root user
 - Dont affect service linked policies (like [[S3]] bucket policy)
+- use for denies cross account in your org

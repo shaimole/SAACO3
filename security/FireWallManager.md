@@ -1,10 +1,16 @@
+![[Pasted image 20221102200008.png]]
 # AWS Firewall Manager
-- manage firewall rules on organsiation level
-## Servies Support
+
+## TLDR
+Centraly manage firewall config and rules for [[AWSOrganisations]]
+
+## Supported Services
 - [[WAF]]
-- Shield Adavances
+- [[AWSShield]] Advanced
 - [[SecurityGroup]]
-- Network firewall (NACL etc)
+- [[NetworkFirewall]]
 - [[Route53]] DNS Firewall
+
+## Features
 - region level
 - automatic apply rules to new ressources

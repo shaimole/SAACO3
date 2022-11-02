@@ -60,3 +60,16 @@ A Group of [[EC2]] Instances scaled horizontally, can use an [[ELB]] or work wit
 ### Target Tracking
 - scale to match the defined metric (e.g. 50% cpu)
 - must not wait for cooldown period
+
+## Scaling Actions
+
+### Rebalancing
+Happens when an instance is missing or AZ is changed or Spot schenanigans.
+1. Launch new instances
+2. Terminate old instances
+
+### Scaling
+Happens for health checks
+1. Terminate
+2. Launch new
+

@@ -145,6 +145,7 @@ AWS family of load balancers. Is used to spread and control traffic to a vertica
 ### NLB
 - multiple listeners multi certs
 - SNI
+- used for routing tcp traffic (e.g. ssh)
 
 ## Connection Draining/ Deregistration Delay
 - Time to complete in flight request while instance is going to be no longer targetet by ELB
