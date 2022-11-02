@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scalabily/ELB.md",
+                "file": "utils/Cloudformation.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "NLB",
+                "query": "cloudform",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scalabily/ELB.md",
+                "file": "utils/Cloudformation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scalabily/ELB.md",
+                "file": "utils/Cloudformation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scalabily/ELB.md"
+                "file": "utils/Cloudformation.md"
               }
             }
           }
@@ -224,15 +224,15 @@
   },
   "active": "79e74880c71d86cf",
   "lastOpenFiles": [
-    "storage/S3.md",
-    "storage/EFS.md",
-    "storage/EBS.md",
-    "corporate/AWSOrganisations.md",
+    "computing/EC2.md",
     "utils/Backup.md",
-    "storage/RDS.md",
-    "security/SecretsManager.md",
+    "storage/DynamoDB.md",
+    "scalabily/ASG.md",
     "networks/VPC.md",
-    "machine_learning/QuickSight.md",
-    "storage/LakeFormation.md"
+    "computing/ECS.md",
+    "storage/S3.md",
+    "scalabily/ELB.md",
+    "storage/EFS.md",
+    "storage/EBS.md"
   ]
 }

@@ -12,6 +12,7 @@ ECS is AWS Docker Service. You can launch and modify containers as tasks in mult
 ## Fargate Based
 - Serverless
 - Billed for cpu and memory used
+- by default 20gb of free block storage
 
 ## Roles
 

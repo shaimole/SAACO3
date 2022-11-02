@@ -60,3 +60,6 @@ NoSQL Serverless DB. Tons of features and can be global.
 
 ## Security
 - support [[KMS]] Customer Managed Key
+
+## CLI Created Tabled
+- Autoscaling wont be enabled by default

@@ -95,6 +95,7 @@ A stack of AWS ressources, more clearly the connectivity and setup options for a
 ## NACL
 - not stateful
 - firewall on subnet level
+- for outbound traffic allow ephemeral ports 32768-65535 (all ports for diffrent services to listen for outbound traffic)
 
 ## VPC Traffic Mirroring
 - capture and inspect network traffic

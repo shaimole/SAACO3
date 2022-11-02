@@ -200,8 +200,12 @@ Placement strategy for a group ec2 instances
 - Root [[EBS]] must be encrypted
 - Used for breaks in very long running tasks or if an instances takes very long to startup
 - Can last no longer than 60 days
+- Must be enabled before launch
 
 ## EC2 Instance Recover
 - Creates a new EC2 instance which is identical to the previous ec2
 - recovers private and public ip, metadat, elastic ip, instandce id
 - data in memory is lost
+
+## Limits
+- by default your account has a maximum limit for ec2 instances based on the total vcpu used, you can submit a request to increase that limit
