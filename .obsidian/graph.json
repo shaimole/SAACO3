@@ -5,103 +5,18 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "path:access",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:storage",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:scalabilty",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "path:cost_management",
-      "color": {
-        "a": 1,
-        "rgb": 14111456
-      }
-    },
-    {
-      "query": "path:machine_learning",
-      "color": {
-        "a": 1,
-        "rgb": 5431473
-      }
-    },
-    {
-      "query": "path:corporate",
-      "color": {
-        "a": 1,
-        "rgb": 5419488
-      }
-    },
-    {
-      "query": "path:computing",
-      "color": {
-        "a": 1,
-        "rgb": 5395168
-      }
-    },
-    {
-      "query": "path:data_transfer",
-      "color": {
-        "a": 1,
-        "rgb": 4464215
-      }
-    },
-    {
-      "query": "path:networks",
-      "color": {
-        "a": 1,
-        "rgb": 14701233
-      }
-    },
-    {
-      "query": "path:messaging",
-      "color": {
-        "a": 1,
-        "rgb": 6938706
-      }
-    },
-    {
-      "query": "path:security",
-      "color": {
-        "a": 1,
-        "rgb": 15991041
-      }
-    },
-    {
-      "query": "path:utils",
-      "color": {
-        "a": 1,
-        "rgb": 10681333
-      }
-    }
-  ],
+  "collapse-color-groups": true,
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 0.738020833333333,
-  "lineSizeMultiplier": 0.4828125,
+  "textFadeMultiplier": -2.1,
+  "nodeSizeMultiplier": 1.19739583333333,
+  "lineSizeMultiplier": 0.227604166666667,
   "collapse-forces": false,
-  "centerStrength": 0.807291666666667,
+  "centerStrength": 0.651041666666667,
   "repelStrength": 20,
-  "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.32133638605037007,
-  "close": false
+  "linkStrength": 0.567708333333333,
+  "linkDistance": 500,
+  "scale": 0.18462326225858455,
+  "close": true
 }

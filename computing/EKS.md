@@ -13,7 +13,7 @@ Kubernetes in AWS. [[ECS]] Default options are not Kubernetes, but AWS own tech.
 
 ### Self Managed
 - [[EC2]] are created by the user and registered to the cluster
-- Can use prebuild [[EKS]] optimized [[AMI]]
+- Can use prebuild [[EKS]] optimized [[AMi]]
 - Supports on demand or spot instaces
 
 ### Fargate

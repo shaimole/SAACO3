@@ -23,6 +23,3 @@ Set ENV var PYTHON_VERSION to 3.7 and use this build command
 ```bash 
 pip install --upgrade pip && pip install mkdocs-material && pip install mkdocs-roamlinks-plugin && pip install mkdocs-mermaid2-plugin && shopt -s extglob && mkdir docs && mv !(docs) ./docs/ && cp ./docs/mkdocs.yaml ./mkdocs.yaml && cp ./docs/README.md ./docs/index.md && mkdocs build
 ```
-
-## Use Obsidian for Graph View
-![[Pasted image 20221103175044.png]]
