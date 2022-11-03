@@ -37,6 +37,7 @@ A stack of AWS ressources, more clearly the connectivity and setup options for a
 - instances dont require public ip adresses
 - uses AWS Private Link as connection Line
 - data does not leave AWS while communicatiing
+- doesn not support inter region communication
 
 ### Interface Endpoint
 - eni with private ip adress in the target subnet
@@ -48,6 +49,7 @@ A stack of AWS ressources, more clearly the connectivity and setup options for a
 ## VPC Peering
 - connection between 2 VPCs using private adresses
 - not transitive
+- need to setup route tables
 
 ### Transit Gatway
 - hub for multiple peering connections

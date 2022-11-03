@@ -84,3 +84,9 @@ Various  relational databases, manged by aws.
 - reduces rds and aurora failover time by 66%
 - enforces iam auth for db and store creds in aws secrets manager
 - RDS Proxy is never public and can only be used from within the vpc
+
+## Enhanced Monitoring
+[[CloudWatch]] feature for RDS
+- RDS child processes
+- RDS processes
+- OS Processes

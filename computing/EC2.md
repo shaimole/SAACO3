@@ -189,6 +189,7 @@ Placement strategy for a group ec2 instances
 - Bound by AZ
 ### EFA Elastic Fabric Adapter
 - use to accelerate high performance computing by providing os bypacc hardware interface
+- cannot be used for windows 
 
 ### ENA Elastic Network Adapter
 - use for high performance networking capabilitiies

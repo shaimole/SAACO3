@@ -19,6 +19,7 @@ This is network storage attached to an [[EC2]] instance.
 ## Snapshot
 - is a Backup, can be done durin attachment
 - Backups can be copied to diffrent region
+- snapshot can be done while the volume is being used
 
 ### EBS Snapshot Archive
 - cheaper Snapshot storage but longer restore time
@@ -56,6 +57,7 @@ This is network storage attached to an [[EC2]] instance.
 - max piops 64k for nitro ec2 
 - max piops 32k for non nitro
 - io2 ist just better
+- iops gb ratio 50:1 (10GB max 500 iops)
 
 #### io2 block express
 - sub milisecond latency

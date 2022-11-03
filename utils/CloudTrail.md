@@ -1,11 +1,11 @@
 # Could Trail for Cloud Watch
 - tracks and logs api requests within the aws account
 - used for governance, complicance, operaational auditing and risk auditing
-- can be used to trigger events on AWS Event Bridge
+- can be used to trigger events on AWS [[EventBride]]
 - enabled by default
 - a trail can be one or all regions
 - stored for 90 days default
-- tranfer to s3 for longer retention 
+- tranfer to [[S3]] for longer retention 
 
 ## Management Events
 - Configuring Security 
@@ -20,4 +20,7 @@
 ## CloudTrail Insights Events:
 - ML
 - Detect unusal activity in write events
-- send to s3 , eventbride and cloudtrail console
+- send to [[S3]] , [[EventBride]] and cloudtrail console
+
+## Security
+- logs are encrypted by default using [[KMS]] AWS Manged keys

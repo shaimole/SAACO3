@@ -25,3 +25,6 @@ Kubernetes in AWS. [[ECS]] Default options are not Kubernetes, but AWS own tech.
 - [[EFS]] (works with fargate)
 - [[FSxLustre]]
 - FSx for NetApp ONETAP
+
+## Authentification
+- Need a config map to map IAM to Kubernetes RBAC System (is automaticly created)

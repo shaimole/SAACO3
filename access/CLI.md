@@ -18,3 +18,8 @@ aws configure
 ## SDK
 - Code library to do the same actions as CLI
 - Avaiable for most common programming languages, also for Iot and mobile sdk
+
+## Run Command
+- used for [[EC2]]
+- use sdk or cli to request a command to be run on an [[EC2]]
+- skips ssh 
