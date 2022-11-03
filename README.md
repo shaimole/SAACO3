@@ -1,6 +1,6 @@
 
 # SAACO3
-![[Pasted image 20221030210745.png]]
+![[Pasted image 20221103175717.png]]
 ## Introduction
 This is a personal collection of notes taken in preparation for the AWS SAA-C03 certification. 
 
