@@ -4,7 +4,7 @@
 ## Introduction
 This is a personal collection of notes taken in preparation for the AWS SAA-C03 certification.
 
-## Ressources Used
+## Resources Used
 
 ### Courses
 - [Ultimate AWS Certified Solutions Architect Associate (SAA) | Udemy](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/)
