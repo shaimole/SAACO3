@@ -77,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "storage/S3.md",
+                "file": "messaging/Pinpoint.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "S3",
+                "query": "pinpoi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "storage/S3.md",
+                "file": "messaging/Pinpoint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "storage/S3.md",
+                "file": "messaging/Pinpoint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "storage/S3.md"
+                "file": "messaging/Pinpoint.md"
               }
             }
           }
@@ -224,15 +224,15 @@
   },
   "active": "3538fd0abc3e0a8d",
   "lastOpenFiles": [
-    "data_transfer/AppFlow.md",
-    "utils/CloudTrail.md",
-    "networks/VPC.md",
-    "messaging/Kinesis.md",
-    "messaging/SES.md",
-    "vpc endpoint.md",
-    "storage/EBS.md",
-    "Access/CLI.md",
     "Computing/EC2.md",
-    "security/HSM.md"
+    "utils/Backup.md",
+    "utils/Athena.md",
+    "storage/LakeFormation.md",
+    "Computing/ElasticBeanstalk.md",
+    "utils/Cloudfront.md",
+    "security/ACM.md",
+    "storage/S3.md",
+    "data_transfer/AppFlow.md",
+    "utils/CloudTrail.md"
   ]
 }

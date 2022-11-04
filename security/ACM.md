@@ -1,4 +1,5 @@
 # AWS Certifacte Manager
+
 - used for SSL TLS certificate managedment provision and deploy
 - provide inslight encryption
 - public and private certs
@@ -8,18 +9,20 @@
 - can imported but no automatic renewal
 - certifactes for cloudfront must be in us-east-1
 - for api gateway region needs to be created in same region
+
 ## Integrations
-- ELBs
-- Cloudfront
-- Api Gateway
+- [[ELB]]
+- [[Cloudfront]]
+- [[APIGateway]]
 
 ## Options
 - FQDN
 - Wildcard
+
 ### Valiation Method
 - DNS
 - Email
 
 ## Exp Check
 - Daily Expiration Events to Event Bride
-- AWS Config acm-certifacte-expiration-check
+- [[AWSConfig]] acm-certifacte-expiration-check
